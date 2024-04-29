@@ -6,42 +6,53 @@
     <title>cgmp</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     
     <div class="container">
         <!-- Topbar -->
-        <div class="row bg-white text-dark">
-            <div class="col text-end py-2">
-              <ul class="list-unstyled d-flex justify-content-end">
-                <li class="me-2 fw-bold"><a href="#" class="nav-link">Home</a></li>
-                <li class="me-2 fw-bold"><a href="#" class="nav-link">About Us</a></li>
-                <li class="me-2 fw-bold"><a href="#" class="nav-link">Events</a></li>
-                <li class="me-2 fw-bold"><a href="#" class="nav-link">Membership</a></li>
-                <li class="me-2 fw-bold"><a href="#" class="nav-link">Committee</a></li>
-                <li class="me-2 fw-bold"><a href="#" class="nav-link">Gallery</a></li>
-                <li class="fw-bold"><a href="#" class="nav-link">Contact Us</a></li>
-              </ul>
-            </div>
+        <div class="row bg-white text-dark d-none d-sm-block">
+          <div class="col py-2 text-center text-md-end">
+            <ul class="list-unstyled d-flex flex-wrap justify-content-md-end mb-0">
+              <li class="me-md-2 fw-bold"><a href="#" class="nav-link">Home</a></li>
+              <li class="me-md-2 fw-bold"><a href="#" class="nav-link">About Us</a></li>
+              <li class="me-md-2 fw-bold"><a href="#" class="nav-link">Events</a></li>
+              <li class="me-md-2 fw-bold"><a href="#" class="nav-link">Membership</a></li>
+              <li class="me-md-2 fw-bold"><a href="#" class="nav-link">Committee</a></li>
+              <li class="me-md-2 fw-bold"><a href="#" class="nav-link">Gallery</a></li>
+              <li class="fw-bold"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
           </div>
+        </div>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Logo</a>
-            <a href=""> <img src="assets/img/chat-whatsapp.png" class="img-fluid" width="150" alt=""> </a>
+            <a href=""> <img src="assets/img/chat-whatsapp.png" class="img-fluid rounded-pill" width="150" alt=""> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item me-5">
-                  <span class="nav-link">Together we are stronger!</span>
+                <li class="nav-item me-5 d-none d-sm-block">
+                  <span class="nav-link fw-bold text-secondary">Together we are stronger !</span>
                 </li>
-                <li class="nav-item me-4">
-                  <a class="btn btn-warning" href="#">Get Involved</a>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link">Events</a></li>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link">Membership</a></li>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link">Committee</a></li>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link">Gallery</a></li>
+                <li class="nav-item fw-bold d-md-none"><a href="#" class="nav-link ">Contact Us</a></li>
+                <li class="nav-item me-4 d-none d-sm-block">
+                  <a class="btn btn-warning text-white fw-bold" href="#">Get Involved</a>
+                </li>
+                <li class="nav-item me-4 my-2 d-md-none">
+                  <a class="btn btn-warning text-white fw-bold" href="#">Get Involved</a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-danger" href="#">Donate</a>
+                  <a class="btn btn-danger fw-bold" href="#">Donate</a>
                 </li>
               </ul>
             </div>
@@ -77,5 +88,7 @@
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
