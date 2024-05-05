@@ -29,3 +29,29 @@
     z-index: 1;
     font-weight: bold;
 }
+
+.gallery-home img{
+    width: 120px;
+    height:70px;
+}
+
+.donate-now{
+    background-color: purple;
+    border: none;
+    color:white;
+}
+
+.donate-block{
+    background-color: rgba(23, 23, 83, 0.623);
+    border-radius: 5px;
+}
+
+.social-network{
+    background-color: rgba(23, 23, 83, 0.623);
+}
+
+.donation-amount-block{
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
